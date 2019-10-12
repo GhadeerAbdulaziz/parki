@@ -31,7 +31,6 @@ public class register extends AppCompatActivity {
         _txtcarnum=(EditText)findViewById(R.id.txtcarnum);
         _txtlog=(TextView) findViewById(R.id.txtlog);
 
-
         _btnreg.setOnClickListener(new View.OnClickListener() {
             @Override
 
