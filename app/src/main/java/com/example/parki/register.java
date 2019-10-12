@@ -133,6 +133,7 @@ public class register extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"regester successfully",Toast.LENGTH_LONG).show();
             Intent movToLogin=new Intent(register.this,MainActivity.class);
             startActivity(movToLogin);
+            
         }
 
     }
